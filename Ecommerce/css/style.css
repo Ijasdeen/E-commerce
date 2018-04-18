@@ -1,0 +1,225 @@
+/*<General>*/
+.container-fluid{
+  padding: 0px 0px 0px 0px !important;
+}
+body{
+    font-family: roboto,Helvetica,Arial,sans-serif;
+    color: #555;
+    
+}
+ul li a{
+    text-decoration: none !important;
+}
+ 
+/*<//General>*/
+
+/* <Top bar>*/
+.top-bar{
+    padding: 5px 0;
+    font-size: 12px;
+    background-color: #f8f8f8; 
+border-bottom: 1px solid #e9e9e9;
+}
+
+#top-bar-links{
+    margin: 0;
+    padding: 0;
+    list-style: none !important; 
+}
+
+.top-bar #top-bar-links li{
+    display:inline;
+    padding-left: 5px;
+    
+    color: #666;
+}
+
+ 
+/*<//Topbar>*/
+
+
+
+
+/*<Header>*/
+#header{
+    font-size: 13px;
+    line-height: 1.5; 
+    font-family: Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+   color: #fff;
+    min-height: 100px;
+    background-color: #003b64;
+    min-width: 100%; 
+    position: relative;
+    
+}
+ 
+  
+.expert-link a{
+    color: white;
+    
+}
+ 
+
+ 
+.nav-list{
+   float: left;
+  
+ 
+}
+.nav-list li{
+   
+  list-style: none;
+    display: inline-block;
+   padding-right: 8px;
+   
+}
+.nav-list li a{
+    color: white;
+    text-decoration: underline !important;
+     transition: 0.3s ease-in-out all;
+
+}
+
+
+.nav-list li a:hover{
+     transition: 0.3s ease-in-out all;
+     color: orange;
+}
+  
+#time-row{
+    padding-bottom: 40px;
+}
+#time-row .fa{
+    font-size: 25px;
+    
+}
+/*<//Header>*/
+
+/*<Nav>*/
+nav{
+    background-color: rgb(0, 46, 78) !important;
+}
+  
+.navbar-nav li a strong:hover{
+    color: grey !important;
+    
+}
+
+ 
+/*<//Nav>*/
+
+/*<NavPilla>*/
+#get_brand, .product-contentsm, #get_product{
+   margin-top: 80px;
+}
+
+
+#v-pills-home-tab{
+    background-color: rgb(0, 59, 100) !important;
+    color: white !important;
+    
+}
+
+#v-pills-tab{
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+
+/*<//NavPills>*/
+
+
+  .mymenu:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+      -webkit-transition: 200ms all ease-in-out !important;
+      -o-transition: 200ms all ease-in-out !important;
+      transition: 200ms all ease-in-out !important;
+     border-right: 2px solid brown !important; 
+  }
+
+.mymenu {
+      -webkit-transition: 100ms all ease-in-out !important;
+      -o-transition: 100ms all ease-in-out !important;
+      transition: 100ms all ease-in-out !important;
+     padding: 10px;
+     
+  }
+  
+.product-img img{ 
+    width: 160px !important;
+    height: 250px !important;
+    padding: 20px;
+}
+.mymenu .card{
+    width: auto; 
+  
+}
+ 
+#account .dropdown-item:hover{
+background-color: rgb(0, 46, 78);
+color: #fff;
+}
+
+
+ .cart-area {
+    margin-top: 80px;
+   
+     
+}
+
+.cart-area img{
+   width: 150px;
+    height: 150px;
+} 
+ 
+
+.subtotal-area{
+    position:absolute;
+    background-color: rgb(233, 236, 239);
+    width: 80%; 
+    height: 220px;
+    
+}
+ 
+#coupanArea{
+       margin-top: 500px;
+    padding-top: 200px;
+    padding-left: 50px;
+   
+}
+.subtotal-area
+{
+    margin-top: 250px;
+    margin-left: 20px;
+    
+}
+
+@media(min-width:768px) {
+    #coupanArea{
+          margin-top: 20px !important;   
+          padding-top:0px !important;
+    padding-left:5px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    #coupanArea {
+    margin-top: 20px !important;     
+         padding-top:0px !important;
+    padding-left:5px !important;
+    }
+}
+@media (min-width: 400px) {
+    #coupanArea {
+    margin-top: 20px;  
+         padding-top:0px;
+    padding-left:5px;
+    }
+}
+@media (min-width: 200px) {
+    #coupanArea {
+    margin-top: 20px;
+         padding-top:0px;
+    padding-left:5px;
+    }
+}
